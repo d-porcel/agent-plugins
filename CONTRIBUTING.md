@@ -15,6 +15,8 @@ npm run check:syntax
 
 If you change a plugin manifest or MCP config, also run `claude plugin validate plugins/kapso` (requires Claude Code). CI runs it on every pull request.
 
+If you change a skill or MCP tool, run the agent evals in `evals/kapso/` (see its README).
+
 ## Safety Expectations
 
 - Keep examples synthetic. Use `example.com`, placeholder IDs, and test phone numbers.
